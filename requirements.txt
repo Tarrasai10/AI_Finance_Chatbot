@@ -1,0 +1,13 @@
+streamlit
+yfinance
+requests
+numpy
+pandas
+plotly
+spacy
+prophet
+pdfplumber
+nltk
+transformers
+tensorflow
+torch
