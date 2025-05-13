@@ -7,20 +7,8 @@ An interactive Streamlit-based AI assistant for Indian stock analysis, recommend
 ---
 
 ## 🧠 System Architecture
+![System Architecture](docs/architecture.png)
 
-```mermaid
-flowchart TD
-    A[User Query] --> B[Intent Detection & Ticker Extraction]
-    B --> C[Document Retrieval (FAISS)]
-    B --> D[Stock & News Data Fetch (yFinance + NewsAPI)]
-    C --> E[Sentiment Analysis]
-    D --> F[Technical Analysis]
-    D --> G[Prophet Forecasting]
-    E --> H[Decision Engine]
-    F --> H
-    G --> H
-    H --> I[Recommendation Output + Charts]
-```
 
 ---
 
