@@ -7,7 +7,7 @@ An interactive Streamlit-based AI assistant for Indian stock analysis, recommend
 ---
 
 ## 🧠 System Architecture
-![System Architecture](docs/architecture.png)
+![System Architecture](docs/flow.png)
 
 
 ---
