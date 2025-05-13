@@ -3,6 +3,7 @@ yfinance
 requests
 numpy
 pandas
+tf-keras
 plotly
 spacy
 prophet
